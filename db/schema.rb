@@ -34,6 +34,4 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_07_104114) do
     t.index ["source_account_id"], name: "index_histories_on_source_account_id"
   end
 
-  add_foreign_key "histories", "destination_accounts"
-  add_foreign_key "histories", "source_accounts"
 end

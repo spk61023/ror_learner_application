@@ -49,6 +49,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "graphql"
+gem "graphiql-rails"
 gem 'uuid'
 gem 'faker'
 
