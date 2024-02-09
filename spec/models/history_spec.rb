@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe History, type: :model do
   describe "validations" do
     it "is valid with valid attributes" do
-      history = build(:history)
+      history = build(:history, source_account: Account.new, destination_account: Account.new)
       expect(history).to be_valid
     end
 
