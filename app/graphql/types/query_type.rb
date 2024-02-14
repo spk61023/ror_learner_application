@@ -17,7 +17,7 @@ module Types
 
     def history(account_id:)
       account = Account.find_by(id: account_id)
-      account&.histories
+      account&.history
     end
   end
 end
